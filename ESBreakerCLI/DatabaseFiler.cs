@@ -11,7 +11,7 @@ namespace ESBreakerCLI
     public class DatabaseFiler
     {
         string dbDir = Path.Combine(System.IO.Path.GetDirectoryName(
-                                        Assembly.GetEntryAssembly().Location), "Databases");
+                                        Assembly.GetEntryAssembly().Location), "android/data/com.sega.phantasystaronline2es/files/3hwQzp8KE9T1oTpJCHPvxI5JIedD3AuT/");
         string saveDir = Path.Combine(System.IO.Path.GetDirectoryName(
                                         Assembly.GetEntryAssembly().Location), "output");
 
